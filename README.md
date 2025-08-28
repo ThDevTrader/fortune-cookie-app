@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fortune Cookie App 🥠
 
-## Getting Started
+Aplicativo interativo de biscoito da sorte 🍀
 
-First, run the development server:
+## 🎯 Objetivo
 
+Este projeto foi desenvolvido como parte de processo seletivo para demonstrar:
+- Conhecimentos gerais no desenvolvimento web
+- Estruturação de projeto
+- Gerenciamento de estado
+- Organização de código
+- Responsividade
+
+## 🚀 Funcionalidades
+
+- **Interação com biscoito**: Clique para quebrar o biscoito
+- **Animações suaves**: Transições entre estados
+- **Mensagens motivacionais**: Frases inspiradoras  
+- **Números da sorte**: Geração aleatória de 6 números únicos
+- **Design responsivo**: Adaptável a diferentes dispositivos
+
+## 🛠️ Tecnologias Utilizadas
+
+- React/Next
+- JavaScript
+- Tailwind
+
+## 📋 Como executar
+
+### 1 - Clone este repositório 
+
+HTTPS
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/ThDevTrader/fortune-cookie-app.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+SSH
+```bash
+git clone git@github.com:ThDevTrader/fortune-cookie-app.git
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 2 - Instale as dependências
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3 - Rode a aplicação
+```bash
+npm run dev
+```
 
-## Learn More
+## 👤 Desenvolvedor
 
-To learn more about Next.js, take a look at the following resources:
+Desenvolvido por Thiago Santos como projeto de demonstração de habilidades técnicas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
