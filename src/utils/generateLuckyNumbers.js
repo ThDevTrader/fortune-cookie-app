@@ -1,14 +1,11 @@
-export const generateLuckyNumbers = () => {
-      const numbers = [];
-
-      for (let count = 0; count < 6; count++) {
-        const newNumber = Math.floor(Math.random() * 60) + 1;
-        if (!numbers.includes(newNumber)) {
-          numbers.push(newNumber);
-        } else {
-          count--;
-        }
-      }
-
-      return numbers;
-    };
+export async function generateLuckyNumbers() {
+  try {
+    const res = await fetch("http://localhost:4001/api/lucky-numbers");
+    if (!res.ok) throw new Error("Error generating lucky numbers");
+    const data = await res.json();
+    return data.numbers;
+  } catch (error) {
+    console.error(error);
+    return [];
+  }
+}
