@@ -54,7 +54,9 @@ http://localhost:3000/
 
 *caso a porta esteja em uso, observe no terminal qual a porta sendo usada
 
-#### 5 - ...Inspire-se e divirta-se!
+#### 5 - Siga as instruções do [Fortune Cookie App Backend](https://github.com/ThDevTrader/fortune-cookie-app-backend) para rodar a API
+
+#### 6 - ...Inspire-se e divirta-se!
 
 ## 👤 Desenvolvedor
 
